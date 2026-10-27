@@ -1,10 +1,14 @@
-
 name = "telegram-business-ai"
 main = "worker.js"
 compatibility_date = "2026-10-27"
+keep_vars = true
 
 [vars]
 AI_BASE_URL = "https://api.plakcel.xyz/v1"
 AI_MODEL = "deepseek-v4.1-flash"
 AI_MAX_TOKENS = "800"
-HISTORY_TTL_SECONDS = "2592000"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "messenger"
+database_id = "ВСТАВЬ_UUID_БАЗЫ"
