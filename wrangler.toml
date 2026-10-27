@@ -1,12 +1,7 @@
+
 name = "telegram-business-ai"
 main = "worker.js"
 compatibility_date = "2026-10-27"
-
-# In Cloudflare Dashboard, create a KV namespace and bind it with this exact
-# variable name: BOT_DATA. Replace the id below if you use Wrangler CLI.
-[[kv_namespaces]]
-binding = "BOT_DATA"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 
 [vars]
 AI_BASE_URL = "https://api.plakcel.xyz/v1"
